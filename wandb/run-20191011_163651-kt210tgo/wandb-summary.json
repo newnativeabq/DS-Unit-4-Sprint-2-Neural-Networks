@@ -1,0 +1,84 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "dense_12_input",
+                "id": "dense_12_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    [
+                        null,
+                        13
+                    ]
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_12",
+                "id": "dense_12",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    13
+                ],
+                "num_parameters": 182
+            },
+            {
+                "name": "dense_13",
+                "id": "dense_13",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    26
+                ],
+                "num_parameters": 364
+            },
+            {
+                "name": "dense_14",
+                "id": "dense_14",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    13
+                ],
+                "num_parameters": 351
+            },
+            {
+                "name": "dense_15",
+                "id": "dense_15",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    1
+                ],
+                "num_parameters": 14
+            }
+        ],
+        "edges": [
+            [
+                "dense_12_input",
+                "dense_12"
+            ],
+            [
+                "dense_12",
+                "dense_13"
+            ],
+            [
+                "dense_13",
+                "dense_14"
+            ],
+            [
+                "dense_14",
+                "dense_15"
+            ]
+        ]
+    },
+    "_timestamp": 1570811848.7754111,
+    "_runtime": 37.282742738723755,
+    "_step": 999,
+    "binary_accuracy": 0.8844884634017944,
+    "loss": 0.1181077499790947,
+    "epoch": 999
+}

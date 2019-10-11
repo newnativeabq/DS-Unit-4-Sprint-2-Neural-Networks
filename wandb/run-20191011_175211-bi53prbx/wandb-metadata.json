@@ -1,0 +1,29 @@
+{
+    "root": "/storage/DS-Unit-4-Sprint-2-Neural-Networks",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/newnativeabq/DS-Unit-4-Sprint-2-Neural-Networks.git",
+        "commit": "19035be36c4f05f92dddc0fc85f14d2c1d4f6135"
+    },
+    "email": "vincent.a.brandon@gmail.com",
+    "startedAt": "2019-10-11T17:52:14.671489",
+    "host": "8967e1024ff4",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "os": "Linux-4.4.0-130-generic-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.6.8",
+    "gpu": "Quadro M4000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": "10.0.130",
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-f43a839c-4fd4-49b7-b364-a417710cb5f7.json"
+    ],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "effortless-eon-10",
+    "project": "lambda-ds-424",
+    "heartbeatAt": "2019-10-11T17:52:58.082220"
+}

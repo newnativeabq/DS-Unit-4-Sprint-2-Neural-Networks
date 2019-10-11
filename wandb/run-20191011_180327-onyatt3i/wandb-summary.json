@@ -1,0 +1,85 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "dense_66_input",
+                "id": "dense_66_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    [
+                        null,
+                        13
+                    ]
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense_66",
+                "id": "dense_66",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    13
+                ],
+                "num_parameters": 182
+            },
+            {
+                "name": "dense_67",
+                "id": "dense_67",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    26
+                ],
+                "num_parameters": 364
+            },
+            {
+                "name": "dense_68",
+                "id": "dense_68",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    13
+                ],
+                "num_parameters": 351
+            },
+            {
+                "name": "dense_69",
+                "id": "dense_69",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    1
+                ],
+                "num_parameters": 14
+            }
+        ],
+        "edges": [
+            [
+                "dense_66_input",
+                "dense_66"
+            ],
+            [
+                "dense_66",
+                "dense_67"
+            ],
+            [
+                "dense_67",
+                "dense_68"
+            ],
+            [
+                "dense_68",
+                "dense_69"
+            ]
+        ]
+    },
+    "_step": 99,
+    "mean_pred": 0.5480282306671143,
+    "_timestamp": 1570817013.5990522,
+    "accuracy": 0.8415841460227966,
+    "loss": 0.35176951971777987,
+    "epoch": 99,
+    "_runtime": 5.921293497085571
+}

@@ -1,0 +1,85 @@
+{
+    "graph": {
+        "_type": "graph",
+        "format": "keras",
+        "nodes": [
+            {
+                "name": "dense_input",
+                "id": "dense_input",
+                "class_name": "InputLayer",
+                "output_shape": [
+                    [
+                        null,
+                        13
+                    ]
+                ],
+                "num_parameters": 0
+            },
+            {
+                "name": "dense",
+                "id": "dense",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    13
+                ],
+                "num_parameters": 182
+            },
+            {
+                "name": "dense_1",
+                "id": "dense_1",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    26
+                ],
+                "num_parameters": 364
+            },
+            {
+                "name": "dense_2",
+                "id": "dense_2",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    13
+                ],
+                "num_parameters": 351
+            },
+            {
+                "name": "dense_3",
+                "id": "dense_3",
+                "class_name": "Dense",
+                "output_shape": [
+                    null,
+                    1
+                ],
+                "num_parameters": 14
+            }
+        ],
+        "edges": [
+            [
+                "dense_input",
+                "dense"
+            ],
+            [
+                "dense",
+                "dense_1"
+            ],
+            [
+                "dense_1",
+                "dense_2"
+            ],
+            [
+                "dense_2",
+                "dense_3"
+            ]
+        ]
+    },
+    "_step": 999,
+    "mean_pred": 1.7333608865737915,
+    "_timestamp": 1570816377.5193536,
+    "accuracy": 0.5445544719696045,
+    "loss": 6.9834555163241845,
+    "epoch": 999,
+    "_runtime": 45.81682372093201
+}
